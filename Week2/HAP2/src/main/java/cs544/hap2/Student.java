@@ -13,7 +13,7 @@ public class Student {
 	private String firstname;
 	private String lastname;
 
-	@OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
+	@OneToMany(cascade = CascadeType.PERSIST)
 	private Collection<Course> courselist = new ArrayList<>();
 
 	public Student() {
