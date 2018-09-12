@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <aop:aspectj-autoproxy/>
+    <context:annotation-config/>
+    <bean id="accountService" class="cs544.bank.service.AccountService"/>
+    <bean class="cs544.bank.dao.AccountDAO"/>
+    <bean class="cs544.bank.service.CurrencyConverter"/>
+    <bean class="cs544.bank.jms.JMSSender"/>
+    <bean id="daoLogger" class="cs544.bank.logging.Logger"/>
+    <bean class="cs544.bank.service.aop.DAOLogAdvice">
+        <property name="logger" ref="daoLogger"></property>
+    </bean>
+    <bean class="cs544.bank.service.aop.StopWatchAdvice">
+        <property name="logger" ref="daoLogger"></property>
+    </bean>
+    <bean class="cs544.bank.service.aop.JMSLogAdvice">
+        <property name="logger" ref="daoLogger"></property>
+    </bean>
+
+
+</beans>
