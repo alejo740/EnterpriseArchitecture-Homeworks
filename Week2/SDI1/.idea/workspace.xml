@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6839a92f-dece-4a0e-96d5-089dd187a366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HAP2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HAP2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HAP2/src/main/java/cs544/hap2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HAP2/src/main/java/cs544/hap2/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="6839a92f-dece-4a0e-96d5-089dd187a366" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -223,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536695197857" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536767252240" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -273,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536691690353</updated>
       <workItem from="1536691693516" duration="3154000" />
-      <workItem from="1536766171668" duration="876000" />
+      <workItem from="1536766171668" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4030000" />
+    <option name="totallyTimeSpent" value="4829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
