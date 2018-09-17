@@ -50,7 +50,7 @@ public class AccountService implements IAccountService {
 		account.deposit(amount);
 		accountDAO.updateAccount(account);
 		if (amount > 10000){
-			jmsSender.sendJMSMessage("Deposit of $ "+amount+" to account with accountNumber= "+accountNumber);
+			jmsSender.sendJMSMessage("Deposit of $ "+amount+" to account with accountNumber= "+accountNumber, 9);
 		}
 	}
 
@@ -75,7 +75,7 @@ public class AccountService implements IAccountService {
 		account.deposit(amountDollars);
 		accountDAO.updateAccount(account);
 		if (amountDollars > 10000){
-			jmsSender.sendJMSMessage("Deposit of $ "+amount+" to account with accountNumber= "+accountNumber);
+			jmsSender.sendJMSMessage("Deposit of $ "+amount+" to account with accountNumber= "+accountNumber, 8);
 		}
 	}
 
@@ -93,7 +93,7 @@ public class AccountService implements IAccountService {
 		accountDAO.updateAccount(fromAccount);
 		accountDAO.updateAccount(toAccount);
 		if (amount > 10000){
-			jmsSender.sendJMSMessage("TransferFunds of $ "+amount+" from account with accountNumber= "+fromAccount+" to account with accountNumber= "+toAccount);
+			jmsSender.sendJMSMessage("TransferFunds of $ "+amount+" from account with accountNumber= "+fromAccount+" to account with accountNumber= "+toAccount, 7);
 		}
 	}
 

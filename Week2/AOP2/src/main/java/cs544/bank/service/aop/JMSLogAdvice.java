@@ -10,8 +10,8 @@ public class JMSLogAdvice {
 
     private ILogger logger;
 
-    @After("execution(* cs544.bank.jms.IJMSSender.sendJMSMessage(..)) && args(text)")
-    public void logJMSMessage(JoinPoint joinpoint, String text) throws Throwable {
+    @After("execution(* cs544.bank.jms.IJMSSender.sendJMSMessage(..)) && args(text, idx)")
+    public void logJMSMessage(JoinPoint joinpoint, String text, int idx) throws Throwable {
         logger.log("---logJMSMessage: " + text);
     }
 

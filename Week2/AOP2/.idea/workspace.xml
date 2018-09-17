@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036e5e2f-ee23-461d-947b-a9acb8b9c54a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SPH1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/SPH1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPH1/src/main/resources/springconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Study/AOP1/src/main/java/cs544/aop1/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Study/AOP1/src/main/java/cs544/aop1/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Study/AOP1/src/main/java/cs544/aop1/ClassD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AOP1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs544/bank/jms/IJMSSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/bank/jms/IJMSSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/springconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SPH1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH1/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH1/target/classes/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SPH2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/WEB-INF/classes/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPH2/out/artifacts/HAP2_war_exploded/student.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,13 +73,13 @@
     <session id="-94344455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,13 +96,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="272" />
+          <entry key="java" value="318" />
           <entry key="xml" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="272" />
+          <entry key="JAVA" value="318" />
           <entry key="XML" value="113" />
         </counts>
       </usages-collector>
@@ -102,7 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="294">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
               <folding>
                 <element signature="e#3255#3256#0" expanded="true" />
                 <element signature="e#3299#3300#0" expanded="true" />
@@ -122,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/springconfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
+              <caret line="29" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -147,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/DAOLogAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="221">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -159,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="12" column="88" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,11 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/StopWatchAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="500">
+              <caret line="20" column="82" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#115#116#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
@@ -227,6 +239,7 @@
       <find>accountDAO</find>
       <find>time</find>
       <find>logger.</find>
+      <find>jms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,8 +258,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cs544/bank/aop/DAOLogAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs544/bank/aop/StopWatchAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/StopWatchAdvice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springconfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cs544/bank/jms/IJMSSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java" />
       </list>
     </option>
   </component>
@@ -275,7 +291,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,6 +382,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -374,7 +390,7 @@
     <property name="SearchEverywhereHistoryKey" value="accountDa&#9;PSI&#9;JAVA://cs544.bank.dao.AccountDAO" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536808907943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536987417633" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../AOP2_uka/AOP2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -437,17 +453,17 @@
       <workItem from="1536852077200" duration="376000" />
       <workItem from="1536853925835" duration="2002000" />
       <workItem from="1536863941328" duration="730000" />
+      <workItem from="1536979369260" duration="3056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18470000" />
+    <option name="totallyTimeSpent" value="21526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,7 +472,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3444206" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3444206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,6 +499,32 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="joinpoint.getArgs()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>joinpoint.getArgs()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/IAccountService.java">
@@ -513,18 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#3255#3256#0" expanded="true" />
-            <element signature="e#3299#3300#0" expanded="true" />
-            <element signature="e#3489#3490#0" expanded="true" />
-            <element signature="e#3531#3532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -543,9 +573,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/DAOLogAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="221">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -553,12 +597,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="294">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3255#3256#0" expanded="true" />
+            <element signature="e#3299#3300#0" expanded="true" />
+            <element signature="e#3489#3490#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -570,38 +628,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/JMSLogAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/jms/JMSSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/StopWatchAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="12" column="88" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springconfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs544/bank/service/aop/StopWatchAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="500">
+          <caret line="20" column="82" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
