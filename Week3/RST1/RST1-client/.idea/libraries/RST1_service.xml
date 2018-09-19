@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RST1-service">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../RST1-service/out/artifacts/RST1_service_jar/RST1-service.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
